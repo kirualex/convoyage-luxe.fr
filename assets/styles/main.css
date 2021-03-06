@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Montserrat&display=swap');
 
 html {
   background: #020204;
@@ -23,10 +23,9 @@ body {
 }
 
 h1 {
-  font-family: 'Abril Fatface', serif;
-  font-size: 2.5rem;
+  font-family: 'Racing Sans One', serif;
+  font-size: 2.8rem;
   line-height: 1.2;
-  padding: 1rem 0 4rem;
   color: #fff;
 }
 
@@ -36,16 +35,22 @@ h1 span {
 
 
 h1.logo {
-  padding: 4rem 1rem 0rem;
-  font-size: 1.5rem;
+  font-family: 'Racing Sans One', serif;
+  font-size: 1.4rem;
   color: #525266;
+  display: inline-block;
+}
+
+
+h1.logo:hover {
+  color:#FFE5A9;
 }
 
 h2 {
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Racing Sans One', serif;
   font-size: 2.5rem;
   line-height: 1.5;
-  padding: 3rem 0 2rem;
+  padding: 3rem 0 1.5rem;
 }
 
 h3 {
@@ -91,7 +96,7 @@ a:hover {
 }
 
 header {
-  padding: 2rem 0 6rem;
+  padding: 2rem 0;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -100,9 +105,12 @@ header {
   text-align: center;
 }
 
+header .title {
+  padding: 4rem 0;
+}
 
 header .amg {
-  margin: auto;
+  margin: 6rem  auto;
   width: auto;
   max-width: 90%;
   height: 420px;
