@@ -185,11 +185,10 @@ footer {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 2.2rem;
-    padding: 0.5rem 0 1rem;
+    font-size: 2rem;
   }
-  h1.logo {
-    padding-top: 3rem;
+  header .amg {
+    margin: 2rem  auto;
   }
   h2 {
     font-size: 1.8rem;
