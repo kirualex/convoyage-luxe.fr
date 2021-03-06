@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+
+html {
+  background: #020204;
+}
+
+body {
+  height: 100%;
+  background: #000;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #05050A,
+    #010103
+  ) no-repeat;
+}
+
+h1 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  padding: 1rem 0 4rem;
+  color: #fff;
+}
+
+h1 span {
+  #color: #525266;
+}
+
+
+h1.logo {
+  padding: 4rem 1rem 0rem;
+  font-size: 1.5rem;
+  color: #525266;
+}
+
+h2 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding: 3rem 0 2rem;
+}
+
+h3 {
+  color: #FFE5A9;
+  font-size: 1.5rem;
+  padding: 3rem 0 2rem;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-top: 0.5rem;
+  padding-left: 4rem;
+}
+
+p, li {
+  color: #889;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+a {
+  color: #889;
+  text-decoration: none;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+}
+
+a {
+  color: #FFE5A9;
+}
+a:hover {
+  color: #fff;
+}
+
+header {
+  padding: 2rem 0 6rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  position: relative;
+  z-index: 20;
+  text-align: center;
+}
+
+
+header .amg {
+  margin: auto;
+  width: auto;
+  max-width: 90%;
+  height: 420px;
+  background: url("../images/front.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+   webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+
+#main {
+  padding: 0rem 0 5rem;
+}
+
+#main h2 span {
+  color:#525266;
+}
+
+#process {
+  padding: 5rem 0 8rem;
+  position: relative;
+  text-align: center;
+}
+
+#main p, #main li {
+  max-width: 90%;
+}
+
+span {
+  font-family: 'Abril Fatface', serif;
+  font-size: 2rem;
+  color: #FFE5A9;
+}
+
+#contact {
+  padding: 5rem 0 8rem;
+  position: relative;
+  text-align: center;
+}
+
+.section::before {
+  border-top: 0.1rem solid #334;
+  content: "";
+  display: block;
+  width: 6.25rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+footer {
+  color: #9a9da9;
+  font-size: 1rem;
+  line-height: 1.25;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  overflow: hidden;
+  padding: 2.5rem 0 4rem;
+  text-align: center;
+  position: relative;
+  z-index: 30;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+    padding: 0.5rem 0 1rem;
+  }
+  h1.logo {
+    padding-top: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+  font-size: 1.4rem;
+  }
+  p, li {
+    font-size: 1.2rem;
+  }
+  ul {
+    padding-left: 2rem;
+  }
+  header .amg {
+    height: 250px;
+  }
+
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
