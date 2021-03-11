@@ -55,8 +55,8 @@ h2 {
 
 h3 {
   color: #FFE5A9;
-  font-size: 1.5rem;
-  padding: 3rem 0 2rem;
+  font-size: 1.4rem;
+  padding: 2.5rem 0 2rem;
   font-weight: bold;
 }
 
@@ -137,6 +137,24 @@ header .amg {
   top: 3px;
 }
 
+#main ul.pricing {
+  list-style-type: none;
+  max-width: 80%;
+}
+
+#main ul.pricing li {
+  padding: 0.8rem 0;
+}
+
+#main ul.pricing h3{
+  display: inline;
+}
+
+#main span.price {
+  float :right;
+  font-weight: bold;
+}
+
 #main p, #main li {
   max-width: 90%;
 }
@@ -202,13 +220,21 @@ footer {
   }
 
   h3 {
-  font-size: 1.4rem;
+    font-size: 1.3rem;
   }
+
+  #main span.price {
+    display: block;
+    float:none;
+  }
+
   p, li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
-  ul {
-    padding-left: 2rem;
+
+  ul, #main ul.pricing {
+    padding: 1rem;
+    max-width: 100%;
   }
   header .amg {
     height: 250px;
