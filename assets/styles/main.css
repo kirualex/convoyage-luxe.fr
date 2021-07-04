@@ -22,6 +22,29 @@ body {
   ) no-repeat;
 }
 
+#banner {
+  text-align: center;
+  background: #FFE5A9;
+  padding: 40px;
+  color: #000;
+}
+
+#banner h1 {
+  color: #000;
+}
+#banner p {
+  color: #000;
+}
+
+#banner .e-mail:before {
+  content: attr(data-website) "\0040" attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: #000;
+  font-weight: bold;
+}
+
+
 h1 {
   font-family: 'Racing Sans One', serif;
   font-size: 2.8rem;
